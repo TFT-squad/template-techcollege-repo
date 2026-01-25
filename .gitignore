@@ -1,0 +1,27 @@
+# VS CODE (share configs, ignore local settings)
+.vscode/*
+!.vscode/settings.json      # Shared project settings (tab size, formatters)
+!.vscode/tasks.json         # Shared build/run tasks
+!.vscode/launch.json        # Shared debug configurations
+!.vscode/extensions.json    # Recommended extensions for team
+!.vscode/*.code-snippets    # Custom code snippets for this project
+.history/                   # VS Code local autosave history
+
+# OUTPUT & BUILDS
+dist/ build/ out/ server/   # Build outputs, bundlers, local dev servers
+.cache/                     # Webpack/Vite dev server cache
+
+# LOGS & OS FILES
+*.log                       # All log files
+.DS_Store                   # macOS Finder metadata
+**/.DS_Store                # macOS metadata in subdirectories
+Thumbs.db ehthumbs.db       # Windows thumbnail caches
+desktop.ini                 # Windows folder settings
+*~                          # Editor backup files
+
+# IDE SPECIFIC
+.idea/                      # JetBrains IDE files
+.vscode-server/             # VS Code remote server temp files
+
+# SECURITY (API keys, secrets)
+.env*                       # Environment variable files

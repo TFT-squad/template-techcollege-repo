@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
+  font-size: 62.5%; /* Trick to set 1rem = 10px */
+  font-family: var(--font-family);
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem; /* Back to default font-size, accomodating for the 62.5% font size in html*/
+  line-height: 1.6; /* For better readability */
+}
+
+body,
+aside,
+main,
+section,
+article {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  height: fit-content;
+  font-size: 1.8rem; /* Slightly larger font size for main content */
+  gap: 1rem;
+}
+
+/* Sections inside main */
+main > section {
+  gap: 1rem;
+  text-align: center;
+}
+
+/* Articles inside sections in main */
+main > section > article {
+  width: 100%;
+  padding: 2rem;
+  text-align: left;
+}

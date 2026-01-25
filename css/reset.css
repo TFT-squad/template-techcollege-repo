@@ -1,0 +1,17 @@
+/* GLOBAL RESET OF MARGINS, PADDINGS, AND LINKS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* This template uses border-box */
+  margin: 0; /* Reset margins */
+  padding: 0; /* Reset paddings */
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit; /* Get color from parent element; color will be the same for all link states */
+  text-decoration: none; /* Removes underline from links */
+}
