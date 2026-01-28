@@ -1,11 +1,10 @@
 /* CSS IMPORTS - FILES AND COMPONENTS */
 @import "./reset.css";
-@import "./base.css";
+@import "./root.css";
 @import "./layout.css";
 @import "./css-components/header.css";
 @import "./css-components/footer.css";
 @import "./css-components/modal.css";
 @import "./css-components/form.css";
 @import "./utils.css";
-
 /* CLASS AND ID STYLING BELOW */
